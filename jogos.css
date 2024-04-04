@@ -68,11 +68,39 @@ body {
   }
 
   footer {
-    background-color: #0f0f0f;
+    background-color: #111;
     padding: 2rem;
     text-align: center;
   }
   
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
   @media (max-width: 768px) {
     .game {
       width: calc(50% - 20px);
