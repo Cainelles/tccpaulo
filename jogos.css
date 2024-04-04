@@ -20,6 +20,11 @@ body {
     font-size: 24px;
     color: #6688aa;
   }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
   
   p {
     margin-bottom: 20px;
