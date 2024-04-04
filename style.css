@@ -47,7 +47,7 @@ nav a:hover {
 
 
 #hero {
-  background-image: url('https://img.freepik.com/vetores-premium/interior-da-sala-de-jogos-fluxo-noturno-jogue-videogame-no-console_92863-444.jpg');
+  background-image: url('https://i.postimg.cc/DZdH2cY5/plano.jpg');
   background-size: cover;
   background-position: center;
   height: 100ch;
@@ -59,6 +59,7 @@ nav a:hover {
   color: #ffffff;
   padding: 1rem;
   border: 0;
+  padding-top: 200px;
 }
 
 #hero h1 {
