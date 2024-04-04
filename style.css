@@ -22,7 +22,7 @@ p {
 
 header {
   background-color: #1a1a1a;
-  padding: 1rem;
+
   position: fixed;
   top: 0;
   left: 10;
@@ -30,22 +30,32 @@ header {
   z-index: 100;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  left: 50ch;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-nav a {
-  color: #ffffff;
-  padding: 0 1rem;
+li {
+  float: left;
 }
 
-nav a:hover {
-  color: #00b8d9;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
 
 #hero {
   background-image: url('https://i.postimg.cc/DZdH2cY5/plano.jpg');
