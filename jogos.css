@@ -9,11 +9,13 @@ body {
 a {
   color: #ffffff;
   text-decoration: none;
+  justify-content: center;
 }
 
 h1{
   color: #00b8d9;
   margin-left: 20px;
+  justify-content: center;
 }
 
 h2 {
@@ -21,6 +23,7 @@ h2 {
   margin: 0 0 1rem 0;
   color: #00b8d9;
   margin-left: 10px;
+  justify-content: center;
 }
 
 p {
