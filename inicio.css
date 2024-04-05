@@ -61,12 +61,12 @@ li a:hover:not(.active) {
   background-image: url('https://i.postimg.cc/DZdH2cY5/plano.jpg');
   background-size: cover;
   background-position: center;
-  height: 100ch;
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: auto;
+  align-items: auto;
+  text-align: auto;
   color: #ffffff;
   padding: 1rem;
   border: 0;
@@ -74,6 +74,7 @@ li a:hover:not(.active) {
   width: 100%;
   object-fit: cover;
   object-position: bottom;
+  max-width:100%;
 }
 
 #hero h1 {

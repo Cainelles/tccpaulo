@@ -92,10 +92,10 @@ body {
   }
   
   #hero {
-    background-image: url('https://i.postimg.cc/zBWwLzrD/criador.png');
+    background-image: url('https://i.postimg.cc/zBWwLzrD/criador.png') ;
     background-size: cover;
     background-position: center;
-    height: 100ch;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: auto;
@@ -108,6 +108,7 @@ body {
     width: 100%;
     object-fit: cover;
     object-position: bottom;
+    max-width:100%;
   }
   
   #hero h1 {
