@@ -1,1 +1,0 @@
-document.getElementById('bio').innerText = 'Paulo Cainelles, este sou eu, espero que você tenha visto de tudo o que for possivel neste trablaho de conclusão de curso, atualmente estou cursando Tecnico em informatica porem desde os 12 anos de idade estou envolvido neste ramo de informatica, começando com cursos profissionalizantes e hoje em dia subindo um pouco mais o nivel.';
