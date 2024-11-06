@@ -1,0 +1,35 @@
+
+* {box-sizing:border-box}
+* {font-family: 'Courier New', Courier, monospace;}
+* body{
+  background-color: #66b3ff;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    /*border: 1px solid #ccc;*/
+    border: 1px solid BLACK;
+    border-radius: 5px;
+    /*background-color: #ffff80;*/
+    background-color:#99ccff
+;
+    display: block;
+    text-align: center;
+
+}
+.task-item {
+    margin-bottom: 10px;
+    text-align: left;
+}
+.task-item.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+h1,h2,h3,h4,h5,h6{
+ text-align: center;
+}
+.intro{
+    font-size: 150%;
+    text-align: center;
+}
